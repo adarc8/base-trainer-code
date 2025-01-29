@@ -1,0 +1,19 @@
+# ~~ Common Settings ~~
+_batch_size: 8
+_learning_rate: 1e-5
+_experiment_name: "exp1"
+_data_path: "/raid/data/users/adarc/data_processed/AdarSyntheticData"
+_num_workers: 8
+_pretrained_checkpoint_path: null
+_half_precision: False
+_paths_to_save: ["run_train.py", "trainer.py", "helpers"]
+
+
+# ~~ Defaults Like ~~ (better not touch these)
+_batch_idx_to_stop_epoch: null
+_output_base_path: "output"
+_seed: 42
+_start_epoch: 0
+_epochs: 300
+_first_epoch_batches: 2
+
